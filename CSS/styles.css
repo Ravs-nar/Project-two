@@ -151,6 +151,15 @@ figure{
     .me{
         text-align: center;
     }
+    .done{
+        display: flex;
+        flex-direction: row;
+    }
+    h1{
+        margin-right:  87%;
+        margin-top:0;
+        margin-bottom:0;
+    }
    
 }
 
