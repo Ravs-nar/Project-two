@@ -151,15 +151,14 @@ figure{
     .me{
         text-align: center;
     }
-    .done{
+    header{
         display: flex;
-        flex-direction: row;
+        align-items: center;
     }
-    h1{
-        margin-right:  87%;
-        margin-top:0;
-        margin-bottom:0;
+    header h1 {
+        margin-right:auto;
     }
+    
    
 }
 
