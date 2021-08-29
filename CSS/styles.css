@@ -61,6 +61,9 @@ padding-left:38%;
 .dog{
     text-align: right;
 }
+figure{
+    margin:0;
+}
 
 
 @media screen and (min-width:768px){
@@ -74,6 +77,16 @@ padding-left:38%;
     .item{
         margin-right: 10px;
     }
+
+    .aboout{
+        text-align: left;
+        width: 316px;
+        position: relative;
+        bottom: 166px;
+        }
+        .dog{
+            margin-left: 60%;
+        }
    
     .row {
         display:flex;
@@ -91,12 +104,8 @@ padding-left:38%;
         width: 25%;
     }
 
-    .aboout{
-        width:fit-content;
-    }
-    .me{
-     text-align: center;
-    }
+   
+    
 
 }
 
