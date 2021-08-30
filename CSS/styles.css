@@ -1,5 +1,5 @@
 
-
+/* webpage base*/
  *{
         font-family:'Roboto', sans-serif;
         color: #222;
@@ -11,12 +11,13 @@
         text-align: center;
  }
 
+ /*image base*/
 img {
     width: 200px;
 }
 
 
-
+/*nav*/
 .flex{
     display:flex;
     flex-direction:column;
@@ -29,12 +30,16 @@ img {
 .item-10{
 padding-left:38%;
 }
-
+/*footer*/
 .flex1{
     display:flex;
     flex-direction:row;
     list-style-type: none;
     
+}
+.flex1{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 
@@ -44,7 +49,7 @@ padding-left:38%;
   margin: 2px;
   color:black;
 }
-
+/*body*/
 .row {
     display:flex;
     flex-direction:column;
@@ -59,22 +64,24 @@ padding-left:38%;
     text-align: center;
 }
 
-figure{
-    margin:0;
-}
-.flex1{
-    display: flex;
-    justify-content: space-evenly;
-}
 
 
 @media screen and (min-width:768px){
+   
+     /*top nav*/
     .flex{
         display:flex;
         flex-direction:row;
         justify-content: center;
         flex-wrap: wrap;
         list-style-type: none;
+    }
+    header{
+        display: flex;
+        align-items: center;
+    }
+    header h1 {
+        margin-right:auto;
     }
     .item{
         margin-right: 10px;
@@ -85,10 +92,10 @@ figure{
         flex-direction:row;
     }
     .item-6, .item-7, .item-8{
-        display: table;
+        display: table
     }
     .item-10{
-        visibility: hidden;
+        display: none;
     }
 
     .search{
@@ -96,15 +103,23 @@ figure{
         width: 25%;
     }
 
-   .stuff{
-       display:flex;
-       flex-direction: row-reverse;
-   }
+    .item-1{
+        margin-right:auto;
+    }
+    header{
+        display: flex;
+        align-items: center;
+    }
+    header h1 {
+        margin-right:auto;
+    }
     
 
 }
 
 @media screen and (min-width:1024px){
+    
+    /*top nav*/
     .flex{
         display:flex;
         flex-direction:row;
@@ -144,6 +159,7 @@ figure{
     }
     .stuff{
         display:flex;
+        flex-direction: row-reverse;
         justify-content: flex-end;
     }
     .bio{
