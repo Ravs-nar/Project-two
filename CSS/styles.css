@@ -112,11 +112,14 @@ img {
     
     .stuff{
         display:flex;
-        flex-direction: column;
+        flex-direction: row-reverse;
+        align-items: center;
     }
+    
     .bio{
-        text-align: center;
+        flex-basis: 300px;
     }
+    
     
 }
 
@@ -166,11 +169,11 @@ img {
     .stuff{
         display:flex;
         flex-direction: row-reverse;
-        align-content: space-between;
-        
+        align-items: center;
     }
+    
     .bio{
-        width: 400px;
+        margin-right: auto;
     }
     
    
